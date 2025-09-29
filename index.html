@@ -1,35 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Perkenalan Diri</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Webku</title>
+    <style>
+        /* Atur ukuran gambar di galeri lebih kecil */
+        #galeri img {
+            width: 200px;   /* perkecil gambar */
+            height: auto;   /* tinggi otomatis biar proporsional */
+        }
+    </style>
 </head>
 <body>
+    <!-- Bagian Atas -->
+    <table bgcolor="maroon" width="100%"> 
+        <tr>
+            <td>
+                <header>
+                    <h1><font color="white">TELKOM UNIVERSITY</font></h1>
+                    <p><b><font color="white">Menggambarkan Kecerdasan</font></b></p>
+                </header>
+            </td>
+        </tr>
+    </table>
 
-    <h1>Self Introduction</h1>
+    <!-- Menu Navigasi -->
+    <nav>
+        <table width="100%" bgcolor="white" border="1" cellspacing="6" cellpadding="8">
+            <tr align="center">
+                <td><a href="#profil">Profil</a></td>
+                <td><a href="#fakultas & prodi">Fakultas dan Prodi</a></td>
+                <td><a href="#pendaftaran">Pendaftaran</a></td>
+                <td><a href="konsultasi.html">konsultasi</a></td>
+                <td><a href="berita.html">Berita</a></td>
+            </tr>
+        </table>
+    </nav>
+    <hr>
 
-    <p>
-        Nama       : Muhammad Salman Al Farizi <br>
-        NIM        : A12.2024.07206 <br>
-        No. HP     : 082136728458 <br>
-        Pengalaman : Mengikuti organisasi Himpunan Mahasiswa Sistem Informasi (HMSISFO) 
-        dan mengikuti organisasi luar kampus yaitu AKSION.
-    </p>
+    <!-- Konten Utama -->
+    <main>
+        <!-- Profil -->
+        <section id="profil">
+            <h2>Awal Saya Masuk SMA</h2>
+            <p align="justify">
+                Saya masuk di SMA menggunakan jalur afirmasi menggunakan KIP dan saya langsung diterima di sekolah yang salah satu favorit saya. <br>
+                Di sini saya tidak jadi siswa yang aktif mengikuti organisasi karena belum minat. <br>
+                Waktu kuliah saya minat dengan organisasi langsung masuk 2 organisasi yaitu HMSISFO dan AKSION. <br>
+                Informasi bisa langsung cek di link berikut 
+                <a href="https://www.kompasiana.com/muhammadfauzi4609/61d8d1101b796c0fda3f3d13/wisata-alam-di-kota-jepara-yang-wajib-dikunjungi" target="_blank">disini</a>. <br>
+                <a href="#top">Kembali ke atas</a>
+            </p>
+        </section>
 
-    <h2>Tentang Saya</h2>
-    <p>
-        Saya berasal dari Jepara, sebuah kota yang terkenal dengan keindahan pantainya, 
-        salah satunya adalah Pantai Kartini dan Pantai Bandengan. Selain pantai, Jepara 
-        juga dikenal sebagai kota ukir yang memiliki seni dan budaya yang khas serta 
-        menjadi daya tarik wisatawan dari berbagai daerah.
-    </p>
+        <!-- Fakultas dan Prodi -->
+        <section id="fakultas & prodi">
+            <h2>Dari SMA Menuju ke Kuliah</h2>
+            <p align="justify">
+                Saya berasal dari SMA N 1 Mayong. Awalnya saya ingin kuliah di PTN, tapi saya ditolak SNBT dan SNBP dengan jurusan yang sama yaitu Sistem Informasi. <br>
+                Berhubung ketolak semua, saya melihat Sistem Informasi UDINUS itu unggul dan banyak saran untuk masuk ke UDINUS. <br>
+                Maka dari itu aku langsung daftar lewat guru BK saya, mendaftar melewati PMDK 3. <br>
+                Informasi bisa langsung cek di link berikut 
+                <a href="https://www.kompasiana.com/muhammadfauzi4609/61d8d1101b796c0fda3f3d13/wisata-alam-di-kota-jepara-yang-wajib-dikunjungi" target="_blank">disini</a>. <br>
+                <a href="#top">Kembali ke atas</a>
+            </p>
+        </section>
 
-    <p>
-        Hobi saya adalah bermain basket. Bagi saya, basket bukan hanya olahraga, tetapi juga 
-        cara untuk melatih kekompakan, strategi, dan semangat kerja sama. Melalui basket, saya 
-        bisa menjaga kesehatan tubuh sekaligus memperluas pertemanan dengan orang-orang yang 
-        memiliki minat yang sama.
-    </p>
+        <!-- pendaftaran -->
+        <section id="pendaftaran">
+            <h2>Menuju Kesuksesan</h2>
+            <p align="justify">
+                Saya belum mempunyai karir, tetapi saya sedang berproses membangun karir saya di UDINUS. <br>
+                Informasi bisa langsung cek di link berikut 
+                <a href="https://www.kompasiana.com/muhammadfauzi4609/61d8d1101b796c0fda3f3d13/wisata-alam-di-kota-jepara-yang-wajib-dikunjungi" target="_blank">disini</a>. <br>
+                <a href="#top">Kembali ke atas</a>
+            </p>
+        </section>
 
+        <!-- Formulir -->
+        <section>
+            <h1>Silahkan Isi Data Disini</h1>
+            <form>
+                Nama : <input type="text" name="tnama"><br>
+                Email : <input type="email" name="temail"><br>
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+
+        <!-- Hobi dan Keahlian -->
+        <section>
+            <h1>Hobi</h1>
+            <ul>
+                <li>Main Basket</li>
+                <li>Main Game</li>
+                <li>Belajar</li>
+            </ul>
+
+            <h1>Keahlian</h1>
+            <ol>
+                <li>Web Development</li>
+                <li>Membaca</li>
+                <li>Bersepeda</li>
+            </ol>
+        </section>
+    </main>
+
+    <!-- Bagian Bawah -->
+    <footer>
+        <hr>
+        <p>© 2025 - Biografi Singkat Salman</p>
+    </footer>
 </body>
 </html>
